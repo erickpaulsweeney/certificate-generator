@@ -46,7 +46,7 @@ app.post("/certificate", (req, res) => {
       })
         .then(() => "Created successfully!")
         .catch((err) => console.log(err));
-      res.redirect("http://localhost:8000/image.png");
+      res.redirect("https://certificate-generator-p248.onrender.com//image.png");
     }
   );
 });
